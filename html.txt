@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5afcd7f85f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/grant-logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+           <p>cybersecurity Analyst | Python Developer</p> 
+           <h1>Hi, I'm <span>Grant Ombongi</span><br>from Kenya</h1>
+       
+        </div>
+
+    </div>
+
+</div>
+
+<!----------------about----------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Highly analytical and results-driven cybersecurity professional and python developer with a strong focus on security controls, threats, risks, and vulnerabilities. Expertise in incident response, Linux, Python, SQL, and utilization of SIEM tools such as Chronicle. Well-versed in NIST frameworks and committed to upholding data integrity while passionate about safeguarding the digital environment.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Cybersecurity</span><br>SIEM tools, IDS, Network security, Security Frameworks and Controls etc</li>
+                        <li><span>Python</span><br>Designing and developing software solutions(backend)</li>
+                        <li><span>Linux and SQL</span><br>Proficiency in using the Linux command-line and SQL for database management and operations</li>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Market Research Analyst and Python Scripting Freelancer</li>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023</span><br>Google Cybersecurity Professional Certificate</li>
+                        <li><span>2023</span><br>Python Bootcamp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------services---------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <hi class="sub-title">My Services</hi>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Python Development</h2>
+                <p>Use python in the design and development of scripts, code, software, and applications</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Cybersecurity</h2>
+                <p>Utilize security-based skills such as use of SIEM tools(Chronicle, Splunk), Security Frameworks and Controls, Incident Detection and Response etc. </p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Research and Development</h2>
+                <p>Use my research skills and amassed experience to explore projects, news, and contemporary IT, cybersecurity, and programming issues, which are crucial for staying at the forefront of technological advancements.</p>
+                <a href="#"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <hi class="sub-title">My Work</hi>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Free Vector _ Man face scan biometric digital technology.jpeg">
+                <div class="layer">
+                    <h3>Face Recignition Source Code</h3>
+                    <p>Python Script that works as the backend of a Face Recognition System</p>
+                    <a href="https://github.com/Grantex/facerecognition.git"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/PS2.PNG">
+                <div class="layer">
+                    <h3>Port Scanner</h3>
+                    <p>Python script that checks for open and closed ports of websites and web-based applications</p>
+                    <a href="https://github.com/Grantex/portscanner.git"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div><div class="work">
+                <img src="images/SQL injections💉.jpeg">
+                <div class="layer">
+                    <h3>SQL Injection Vulnerability Assessor</h3>
+                    <p>Python script that checks for SQL injection attack-vulnerabilities in websites and web-based applications</p>
+                    <a href="https://github.com/Grantex/SQL-injection-vulnerability-assessor.git"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Grantex/personal-portfolio-website.git" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------------------contact---------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> grantthesoftwareengineer@gmail.com </p>
+                <p> <i class="fa-sharp fa-solid fa-square-phone"></i> 0715601450</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/grant-ombongi-21912b273"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Grant_Ombongi_Nyamweya_Resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Grant Ombongi-Cybersecurity Analyst | Python Developer</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks =  document.getElementsByClassName("tab-links");
+    var tabcontents =  document.getElementsByClassName("tab-contents"); 
+    
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxzeyvk4OCIEg8ePAhx9KpzaqGLIhg7aiDCsl70xnzpc8KiH_Bhf6lZ-8CKrzVM2oSL6A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
